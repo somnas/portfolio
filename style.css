@@ -3,6 +3,7 @@
           box-sizing: border-box;
   padding: 0;
   margin: 0;
+  /*background-color: rgb(246, 246, 245);*/
 }
 
 .container {
@@ -16,19 +17,77 @@
   /*grid-gap: 5rem;*/
 }
 
-nav {
-  background: red;
+.header {
+  /*background-color: red;*/
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
   grid-area: 1/1/2/3;
+  /*display: flex;
+    justify-content: space-between;
+    align-items: center;*/
+  /*.nav-links {
+        background-color: blue;
+        list-style: none;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .some-icons {
+        background-color: red;
+    }
+
+    p {
+        background-color: yellow;
+    }*/
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  /*flex-direction: row;*/
+}
+
+.nav .nav-links {
+  background-color: blue;
+  list-style: none;
+  padding-right: 125px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.nav .nav-links li {
+  display: inline-block;
+}
+
+.nav .some-icons {
+  background-color: red;
+  list-style: none;
+  padding-left: 125px;
+}
+
+.nav .some-icons li {
+  display: inline-block;
+}
+
+.nav p {
+  background-color: yellow;
 }
 
 .text-content {
-  background: blue;
-  /*grid-area: 2/1/3/2;
-    margin: 5rem 5rem 0 auto;    
+  /*background: blue;*/
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 2/1/3/2;
+  /*margin: 5rem 5rem 0 auto;    
     max-width: 20rem;*/
 }
 
@@ -44,7 +103,7 @@ nav {
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
   grid-area: 2/2/3/3;
-  background: green;
+  /*background: green;*/
   max-width: 100%;
 }
 
