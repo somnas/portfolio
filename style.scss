@@ -8,21 +8,25 @@
  @mixin f-thin {
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
+    color: rgb(15, 15, 15);
  }
 
  @mixin f-light {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
+    color: rgb(15, 15, 15);
  }
 
  @mixin f-regular {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    color: rgb(15, 15, 15);
  }
 
  @mixin f-medium {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
+    color: rgb(15, 15, 15);
  }
 
 .container {
@@ -58,36 +62,45 @@
 }
 
 .nav {
+    
     display: flex;
     justify-content: space-between;
     /*flex-direction: row;*/
     
 
     .nav-links {
-        background-color: blue;
+        /*background-color: blue;*/
         list-style: none;
         padding-right: 125px;
         justify-content: space-evenly;
+        margin: auto;
         
         li {
             display: inline-block;
-            
+            @include f-thin;
+            margin: 10px;
         }
             
     }
     
     .some-icons {
-        background-color: red;
+        /*background-color: red;*/
         list-style: none;
-        padding-left: 125px; 
+        padding-left: 125px;
+        margin: auto; 
         
         li {
             display: inline-block;
+            margin: 10px;
         }
     }
     
     p {
-        background-color: yellow;
+        /*background-color: yellow;*/
+        margin: auto;
+        @include f-regular;
+        font-size: 1.5rem;
+        letter-spacing: 0.2em;
     }
 }
 
@@ -99,8 +112,9 @@
     max-width: 20rem;*/
 
     p {
-        @include f-thin;
-        padding: 50px;
+        @include f-light;
+        font-size: 1.2rem;
+        padding: 175px 25px 50px 50px;
         
     }
 }
