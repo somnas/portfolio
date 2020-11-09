@@ -60,15 +60,30 @@
 .nav {
     display: flex;
     justify-content: space-between;
+    /*flex-direction: row;*/
     
 
     .nav-links {
         background-color: blue;
         list-style: none;
+        padding-right: 125px;
+        justify-content: space-evenly;
+        
+        li {
+            display: inline-block;
+            
+        }
+            
     }
     
     .some-icons {
-        background-color: red;        
+        background-color: red;
+        list-style: none;
+        padding-left: 125px; 
+        
+        li {
+            display: inline-block;
+        }
     }
     
     p {

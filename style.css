@@ -50,15 +50,30 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  /*flex-direction: row;*/
 }
 
 .nav .nav-links {
   background-color: blue;
   list-style: none;
+  padding-right: 125px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.nav .nav-links li {
+  display: inline-block;
 }
 
 .nav .some-icons {
   background-color: red;
+  list-style: none;
+  padding-left: 125px;
+}
+
+.nav .some-icons li {
+  display: inline-block;
 }
 
 .nav p {
