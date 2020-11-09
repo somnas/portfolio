@@ -31,7 +31,9 @@ nav {
 }
 
 .text-content p {
-  margin: auto;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  margin-top: 50px;
 }
 
 .img-content {
@@ -45,6 +47,6 @@ nav {
 
 .img-content img {
   max-width: 100%;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 /*# sourceMappingURL=style.css.map */

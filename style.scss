@@ -2,8 +2,9 @@
     box-sizing: border-box;
  }
 
- @mixin alignment {
-     
+ @mixin f-thin {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
  }
 
 .container {
@@ -26,7 +27,8 @@ nav {
     max-width: 20rem;*/
 
     p {
-        margin: auto;
+        @include f-thin;
+        margin-top: 50px;
     }
 }
 
@@ -36,6 +38,6 @@ nav {
 
     img {
         max-width: 100%;
-        margin-top: 20px;
+        margin-top: 50px;
     }
 }
