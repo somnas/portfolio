@@ -7,6 +7,21 @@
     font-weight: 100;
  }
 
+ @mixin f-light {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+ }
+
+ @mixin f-regular {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+ }
+
+ @mixin f-medium {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+ }
+
 .container {
     display: grid;
     height: 100vh;
