@@ -34,14 +34,47 @@
 }
 
 .header {
-    background-color: red;
+    /*background-color: red;*/
     grid-area: 1/1/2/3;
     
     /*display: flex;
     justify-content: space-between;
     align-items: center;*/
+
+    /*.nav-links {
+        background-color: blue;
+        list-style: none;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .some-icons {
+        background-color: red;
+    }
+
+    p {
+        background-color: yellow;
+    }*/
 }
 
+.nav {
+    display: flex;
+    justify-content: space-between;
+    
+
+    .nav-links {
+        background-color: blue;
+        list-style: none;
+    }
+    
+    .some-icons {
+        background-color: red;        
+    }
+    
+    p {
+        background-color: yellow;
+    }
+}
 
 
 .text-content {

@@ -18,7 +18,7 @@
 }
 
 .header {
-  background-color: red;
+  /*background-color: red;*/
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;
   -ms-grid-column: 1;
@@ -27,6 +27,42 @@
   /*display: flex;
     justify-content: space-between;
     align-items: center;*/
+  /*.nav-links {
+        background-color: blue;
+        list-style: none;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .some-icons {
+        background-color: red;
+    }
+
+    p {
+        background-color: yellow;
+    }*/
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav .nav-links {
+  background-color: blue;
+  list-style: none;
+}
+
+.nav .some-icons {
+  background-color: red;
+}
+
+.nav p {
+  background-color: yellow;
 }
 
 .text-content {
