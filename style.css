@@ -3,7 +3,7 @@
           box-sizing: border-box;
   padding: 0;
   margin: 0;
-  background-color: #f6f6f5;
+  /*background-color: rgb(246, 246, 245);*/
 }
 
 .container {
@@ -18,20 +18,15 @@
 }
 
 .header {
-  /*background: red;*/
-  grid-area: 0.16667;
-}
-
-.header nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  background-color: red;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: 1/1/2/3;
+  /*display: flex;
+    justify-content: space-between;
+    align-items: center;*/
 }
 
 .text-content {
