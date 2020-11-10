@@ -42,7 +42,7 @@
 }
 
 .nav .nav-links {
-  background-color: blue;
+  /* background-color: blue; */
   width: 100%;
   list-style: none;
   /* padding-right: 125px; */
@@ -58,7 +58,7 @@
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: center;
-  /* display: none; */
+  display: none;
 }
 
 .nav .nav-links li {
@@ -80,10 +80,24 @@
 }
 
 .nav #toggle-button {
-  /* background-color: red; */
   position: absolute;
   top: 0.6rem;
   right: 1rem;
+}
+
+.nav #toggle-button.active {
+  display: none;
+}
+
+.nav #close-button {
+  display: none;
+  position: absolute;
+  top: 0.6rem;
+  right: 1rem;
+}
+
+.nav #close-button.active {
+  display: block;
 }
 
 .nav .some-icons {
@@ -101,8 +115,8 @@
 
 .nav #logo {
   /* background-color: yellow; */
-  /* display: inline; */
-  display: none;
+  display: inline;
+  /* display: none; */
   margin: auto;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
