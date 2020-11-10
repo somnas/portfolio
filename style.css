@@ -56,6 +56,13 @@
   color: #0f0f0f;
 }
 
+.nav .toggle-button {
+  /* background-color: red; */
+  position: absolute;
+  top: 0.6rem;
+  right: 1rem;
+}
+
 .nav .some-icons {
   /*background-color: red;*/
   list-style: none;
