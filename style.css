@@ -18,29 +18,11 @@
 }
 
 .header {
-  /*background-color: red;*/
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
   grid-area: 1/1/2/3;
-  /*display: flex;
-    justify-content: space-between;
-    align-items: center;*/
-  /*.nav-links {
-        background-color: blue;
-        list-style: none;
-        display: flex;
-        justify-content: flex-start;
-    }
-
-    .some-icons {
-        background-color: red;
-    }
-
-    p {
-        background-color: yellow;
-    }*/
 }
 
 .nav {
@@ -50,7 +32,6 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  /*flex-direction: row;*/
 }
 
 .nav .nav-links {
@@ -110,6 +91,7 @@
   color: #0f0f0f;
   font-size: 1.2rem;
   padding: 175px 25px 50px 50px;
+  /*padding: 50px 50px 50px 50px;*/
 }
 
 .img-content {

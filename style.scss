@@ -38,35 +38,13 @@
 }
 
 .header {
-    /*background-color: red;*/
     grid-area: 1/1/2/3;
-    
-    /*display: flex;
-    justify-content: space-between;
-    align-items: center;*/
-
-    /*.nav-links {
-        background-color: blue;
-        list-style: none;
-        display: flex;
-        justify-content: flex-start;
-    }
-
-    .some-icons {
-        background-color: red;
-    }
-
-    p {
-        background-color: yellow;
-    }*/
 }
 
 .nav {
     
     display: flex;
-    justify-content: space-between;
-    /*flex-direction: row;*/
-    
+    justify-content: space-between;    
 
     .nav-links {
         /*background-color: blue;*/
@@ -115,6 +93,7 @@
         @include f-light;
         font-size: 1.2rem;
         padding: 175px 25px 50px 50px;
+        /*padding: 50px 50px 50px 50px;*/
         
     }
 }
@@ -129,3 +108,5 @@
         max-width: 100%;
     }
 }
+
+media min 650px
