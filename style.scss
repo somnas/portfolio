@@ -47,22 +47,22 @@
     /* background-color: red; */
     height: 100%;
     display: flex;
-    justify-content: space-between;    
+    flex-direction: column; /* remove outside of mobile */
+    justify-content: space-between;  
+      
 
     .nav-links {
         
-        /* background-color: blue; */
+        background-color: blue;
+        width: 100%;
         list-style: none;
         /* padding-right: 125px; */
         justify-content: space-evenly;
-        margin: auto;
-        /* display: flex; */
-        /* flex-direction: column; */
-        /* text-align: center; */
-        display: none;
-        
-        
-        
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        /* display: none; */
         
         li {
             display: inline-block;               
@@ -76,7 +76,11 @@
             
     }
 
-    .toggle-button {
+    .nav-links.active {
+        display: flex;
+    }
+
+    #toggle-button {
         /* background-color: red; */
         position: absolute;
         top: 0.6rem;
@@ -97,15 +101,21 @@
         }
     }
     
-    p {
+    #logo {
         /* background-color: yellow; */
-        display: inline;
+        /* display: inline; */
+        display: none;
         margin: auto;
         @include f-regular;
         font-size: 1.5rem;
         letter-spacing: 0.2em;
     }
+    #logo.active {
+        display: none;
+    }
 }
+
+
 
 
 .text-content {
@@ -126,6 +136,10 @@
     }
 }
 
+.text-content.active {
+    display: none;
+}
+
 .img-content {
     /* grid-area: 2/2/3/3; */
     grid-area: 3/1/4/2;
@@ -138,8 +152,12 @@
     }
 }
 
+.img-content.active {
+    display: none;
+}
+
 @media screen and (min-width: 750px) {
-    .toggle-button {
+    #toggle-button {
         display: none;
     }
     .nav {
