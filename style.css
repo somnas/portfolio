@@ -46,10 +46,14 @@
 
 .nav .nav-links li {
   display: inline-block;
+  margin: 10px;
+}
+
+.nav .nav-links li a {
+  text-decoration: none;
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
   color: #0f0f0f;
-  margin: 10px;
 }
 
 .nav .some-icons {

@@ -55,8 +55,13 @@
         
         li {
             display: inline-block;
-            @include f-thin;
+            
             margin: 10px;
+
+            a {
+                text-decoration: none;
+                @include f-thin;
+            }
         }
             
     }
