@@ -53,10 +53,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  /* flex-direction: column; */
   text-align: center;
   display: none;
 }
@@ -116,7 +113,6 @@
 .nav #logo {
   /* background-color: yellow; */
   display: inline;
-  /* display: none; */
   margin: auto;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -179,6 +175,13 @@
 @media screen and (min-width: 750px) {
   #toggle-button {
     display: none;
+  }
+  .nav {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    display: inline;
   }
   .nav .nav-links {
     display: inline;
