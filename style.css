@@ -12,8 +12,8 @@
   height: 100vh;
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
-  -ms-grid-rows: 48px 1fr 11.5fr;
-      grid-template-rows: 48px 1fr 11.5fr;
+  -ms-grid-rows: 0.5fr 1fr 11fr;
+      grid-template-rows: 0.5fr 1fr 11fr;
 }
 
 .header {
@@ -44,12 +44,15 @@
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   margin: auto;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* text-align: center; */
   display: none;
 }
 
 .nav .nav-links li {
   display: inline-block;
-  margin: 10px;
+  margin: 5px;
 }
 
 .nav .nav-links li a {
@@ -76,7 +79,7 @@
 
 .nav .some-icons li {
   display: inline-block;
-  margin: 10px;
+  margin: 5px;
 }
 
 .nav p {
