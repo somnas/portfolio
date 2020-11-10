@@ -43,17 +43,16 @@
 
 .nav .nav-links {
   /* background-color: blue; */
-  width: 100%;
+  /* width: 100%; */
   list-style: none;
-  /* padding-right: 125px; */
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
   margin-top: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  /* flex-direction: column; */
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   text-align: center;
   display: none;
 }
@@ -145,7 +144,7 @@
   font-size: 1.2rem;
   text-align: center;
   /* padding: 175px 25px 50px 50px; */
-  padding: 50px 50px 50px 50px;
+  padding: 20px 50px 50px 50px;
 }
 
 .text-content.active {
@@ -164,7 +163,7 @@
 }
 
 .img-content img {
-  padding: 10px 50px 50px 50px;
+  padding: 0 20px 20px 20px;
   max-width: 100%;
 }
 
@@ -177,17 +176,32 @@
     display: none;
   }
   .nav {
+    /* height: 100%; */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    display: inline;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .nav .nav-links {
+    margin: auto;
+    /* background-color: red; */
     display: inline;
   }
   .nav .some-icons {
     display: inline;
+  }
+  .text-content p {
+    padding: 50px 50px 10px 50px;
+  }
+  .img-content img {
+    padding: 50px;
+    max-width: 100%;
   }
 }
 
@@ -217,9 +231,9 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     color: #0f0f0f;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     /* text-align: center; */
-    padding: 175px 25px 50px 50px;
+    padding: 140px 25px 50px 150px;
     /* padding: 50px 50px 50px 50px; */
   }
   .img-content {
@@ -230,10 +244,6 @@
     grid-area: 2/2/3/3;
     /* grid-area: 3/1/4/2; */
     /*background: green;*/
-    max-width: 100%;
-  }
-  .img-content img {
-    padding: 50px;
     max-width: 100%;
   }
 }
