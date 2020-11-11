@@ -1,5 +1,17 @@
 .work-display {
   display: -ms-grid;
   display: grid;
+  -ms-grid-columns: (minmax(19rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+  padding: 15px;
+  grid-gap: 15px;
+}
+
+.work-display img {
+  width: 100%;
+}
+
+.work-display.active {
+  display: none;
 }
 /*# sourceMappingURL=work.css.map */
