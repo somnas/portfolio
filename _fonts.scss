@@ -1,0 +1,23 @@
+@mixin f-thin {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    color: rgb(15, 15, 15);
+ }
+
+ @mixin f-light {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: rgb(15, 15, 15);
+ }
+
+ @mixin f-regular {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: rgb(15, 15, 15);
+ }
+
+ @mixin f-medium {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: rgb(15, 15, 15);
+ }
