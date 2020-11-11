@@ -17,7 +17,8 @@ document.addEventListener("DOMContentLoaded", () => {
     closeBtn.addEventListener("click", () => {
         closeBtn.classList.toggle("active");
         navLinks.classList.toggle("active");
-        logo.classList.toggle("active");        
+        logo.classList.toggle("active");
+        eduText.classList.toggle("active");       
     })
 })
 
