@@ -3,8 +3,6 @@ document.addEventListener("DOMContentLoaded", () => {
     let closeBtn = document.getElementById("close-button");
     let navLinks = document.getElementsByClassName("nav-links")[0];
     let logo = document.getElementById("logo");
-    let textCont = document.getElementsByClassName("landing-text")[0];
-    let imgCont = document.getElementsByClassName("landing-img")[0];
     let eduText = document.getElementsByClassName("edu-text")[0];
 
     toggleBtn.addEventListener("click", () => {
