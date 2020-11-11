@@ -1,0 +1,27 @@
+@import "root";
+@import "navbar";
+@import "fonts";
+
+.about-content {
+    @include f-thin;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    padding: 25px;
+    max-width: 450px;
+    margin-top: 25px;
+
+    img {
+        width: 100%;
+        max-height: auto;        
+    }
+
+    p {
+        padding: 25px;
+    }
+}
+
+.about-content.active {
+    display: none;
+}
