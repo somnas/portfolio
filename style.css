@@ -55,6 +55,7 @@
 .nav .nav-links li {
   display: inline-block;
   margin: 5px;
+  margin-top: 10px;
 }
 
 .nav .nav-links li a {
@@ -100,12 +101,14 @@
 .nav .some-icons li {
   display: inline-block;
   margin: 5px;
+  margin-top: 10px;
 }
 
 .nav #logo {
   display: absolute;
   text-decoration: none;
   margin: auto;
+  margin-top: 10px;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   color: #0f0f0f;

@@ -58,6 +58,7 @@
         li {
             display: inline-block;               
             margin: 5px;
+            margin-top: 10px;
 
             a {
                 text-decoration: none;
@@ -99,6 +100,7 @@
         li {
             display: inline-block;
             margin: 5px;
+            margin-top: 10px;
         }
     }
     
@@ -106,6 +108,7 @@
         display: absolute;
         text-decoration: none;      
         margin: auto;
+        margin-top: 10px;
         @include f-regular;
         font-size: 1.5rem;
         letter-spacing: 0.2em;
