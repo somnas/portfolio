@@ -123,8 +123,7 @@
 .landing-text {   
     
     grid-area: 1/1/2/2; 
-    /* display: none; */
-    background-color: red;
+    /* display: none; */    
 
     p {        
         @include f-light;        

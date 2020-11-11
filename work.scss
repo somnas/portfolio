@@ -1,14 +1,28 @@
-.work-display {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-    padding: 15px;
-    grid-gap: 15px;
+@import "navbar";
 
-    img {
+.work-display {
+    background-color: red;
+    display: grid;   
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+    padding: 15px;
+    margin: auto;
+    margin-top: 50px;
+    grid-gap: 15px;
+    max-width: 720px;
+
+    img {        
         width: 100%;
     }
 }
 
 .work-display.active {
     display: none;
+}
+
+@media screen and (min-width: 650px) {
+
+    .work-display {
+        grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    }
+    
 }
