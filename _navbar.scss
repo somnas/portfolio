@@ -91,7 +91,8 @@
         margin: auto;
         margin-top: 10px;
         @include f-regular;
-        font-size: 1.5rem;
+        font-size: clamp(1vw, 5vw, 1.5rem);
+        /* font-size: 1.5rem; */
         letter-spacing: 0.2em;
     }
     #logo.active {

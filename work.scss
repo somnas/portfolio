@@ -1,7 +1,6 @@
 @import "navbar";
 
-.work-display {
-    background-color: red;
+.work-display {    
     display: grid;   
     grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
     padding: 15px;
