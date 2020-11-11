@@ -7,19 +7,14 @@ document.addEventListener("DOMContentLoaded", () => {
     let imgCont = document.getElementsByClassName("landing-img")[0];
     let eduBtn = document.getElementById("edu");
     let eduText = document.getElementsByClassName("edu-text")[0];
-
-    /* eduBtn.addEventListener("click", () => {
-        textCont.classList.toggle("active");
-        imgCont.classList.toggle("active");
-        eduText.classList.toggle("active");
-    }) */
+   
 
     toggleBtn.addEventListener("click", () => {
         closeBtn.classList.toggle("active");
         navLinks.classList.toggle("active");
         logo.classList.toggle("active");
         textCont.classList.toggle("active");
-        imgCont.classList.toggle("active");
+        imgCont.classList.toggle("active");       
     })
 
     closeBtn.addEventListener("click", () => {
