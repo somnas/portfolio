@@ -185,12 +185,38 @@
   font-weight: 400;
   color: #0f0f0f;
   font-size: clamp(1vw, 5vw, 1.5rem);
-  /* font-size: 1.5rem; */
   letter-spacing: 0.2em;
 }
 
 .nav #logo.active {
   display: none;
+}
+
+@media screen and (min-width: 750px) {
+  #toggle-button {
+    display: none;
+  }
+  .nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    max-width: 1000px;
+    margin: auto;
+  }
+  .nav .nav-links {
+    margin: auto;
+    display: inline;
+  }
+  .nav .some-icons {
+    display: inline;
+  }
 }
 
 .landing-text {

@@ -92,10 +92,34 @@
         margin-top: 10px;
         @include f-regular;
         font-size: clamp(1vw, 5vw, 1.5rem);
-        /* font-size: 1.5rem; */
         letter-spacing: 0.2em;
     }
     #logo.active {
         display: none;
+    }
+}
+
+@media screen and (min-width: 750px) {
+
+    #toggle-button {
+        display: none;
+    }
+    .nav {        
+        display: flex;
+        flex-direction: row;        
+        justify-content: space-between;
+        max-width: 1000px;
+        margin: auto;
+        
+
+        .nav-links {
+            margin: auto;                     
+            display: inline;
+                     
+        }
+        .some-icons {            
+            display: inline; 
+                       
+        }
     }
 }
