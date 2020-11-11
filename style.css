@@ -153,6 +153,10 @@
   transition: width .3s;
 }
 
+.nav .nav-links li:hover {
+  cursor: pointer;
+}
+
 .nav .nav-links.active {
   display: -webkit-box;
   display: -ms-flexbox;

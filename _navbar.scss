@@ -45,6 +45,7 @@
                 text-decoration: none;
                 @include f-thin;
             }
+
             a::after {
                 content: "";
                 display: block;
@@ -57,7 +58,12 @@
                 width: 100%;
                 transition: width .3s;
             }
-        }            
+        }
+        
+        li:hover {
+            cursor: pointer;
+        }
+        
     }
 
     .nav-links.active {
