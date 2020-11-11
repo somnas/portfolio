@@ -3,8 +3,16 @@ document.addEventListener("DOMContentLoaded", () => {
     let closeBtn = document.getElementById("close-button");
     let navLinks = document.getElementsByClassName("nav-links")[0];
     let logo = document.getElementById("logo");
-    let textCont = document.getElementsByClassName("text-content")[0];
-    let imgCont = document.getElementsByClassName("img-content")[0];
+    let textCont = document.getElementsByClassName("landing-text")[0];
+    let imgCont = document.getElementsByClassName("landing-img")[0];
+    let eduBtn = document.getElementById("edu");
+    let eduText = document.getElementsByClassName("edu-text")[0];
+
+    /* eduBtn.addEventListener("click", () => {
+        textCont.classList.toggle("active");
+        imgCont.classList.toggle("active");
+        eduText.classList.toggle("active");
+    }) */
 
     toggleBtn.addEventListener("click", () => {
         closeBtn.classList.toggle("active");
