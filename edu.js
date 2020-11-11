@@ -6,10 +6,10 @@ document.addEventListener("DOMContentLoaded", () => {
     let eduText = document.getElementsByClassName("edu-text")[0];
 
     toggleBtn.addEventListener("click", () => {
-    closeBtn.classList.toggle("active");
-    navLinks.classList.toggle("active");
-    logo.classList.toggle("active");    
-    eduText.classList.toggle("active");    
+        closeBtn.classList.toggle("active");
+        navLinks.classList.toggle("active");
+        logo.classList.toggle("active");    
+        eduText.classList.toggle("active");    
     })
 
     closeBtn.addEventListener("click", () => {
