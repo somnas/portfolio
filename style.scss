@@ -103,7 +103,7 @@
     }
     
     #logo {        
-        display: inline;        
+        display: absolute;        
         margin: auto;
         @include f-regular;
         font-size: 1.5rem;
@@ -148,12 +148,7 @@
 .edu-text {
     @include f-thin;
     text-align: center;
-    padding: 25px;
-    display: none;
-}
-
-.edu-text.active {
-    display: block;
+    padding: 25px;    
 }
 
 @media screen and (min-width: 750px) {

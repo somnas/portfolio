@@ -103,7 +103,7 @@
 }
 
 .nav #logo {
-  display: inline;
+  display: absolute;
   margin: auto;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -162,11 +162,6 @@
   color: #0f0f0f;
   text-align: center;
   padding: 25px;
-  display: none;
-}
-
-.edu-text.active {
-  display: block;
 }
 
 @media screen and (min-width: 750px) {
