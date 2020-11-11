@@ -103,7 +103,8 @@
     }
     
     #logo {        
-        display: absolute;        
+        display: absolute;
+        text-decoration: none;      
         margin: auto;
         @include f-regular;
         font-size: 1.5rem;
