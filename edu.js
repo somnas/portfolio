@@ -5,14 +5,19 @@ document.addEventListener("DOMContentLoaded", () => {
     let logo = document.getElementById("logo");
     let textCont = document.getElementsByClassName("landing-text")[0];
     let imgCont = document.getElementsByClassName("landing-img")[0];
-    let eduBtn = document.getElementById("edu");
     let eduText = document.getElementsByClassName("edu-text")[0];
 
-
-toggleBtn.addEventListener("click", () => {
+    toggleBtn.addEventListener("click", () => {
     closeBtn.classList.toggle("active");
     navLinks.classList.toggle("active");
     logo.classList.toggle("active");    
-    eduText.classList.toggle("active");
-    console.log(eduText);
+    eduText.classList.toggle("active");    
+    })
+
+    closeBtn.addEventListener("click", () => {
+        closeBtn.classList.toggle("active");
+        navLinks.classList.toggle("active");
+        logo.classList.toggle("active");        
+    })
 })
+
