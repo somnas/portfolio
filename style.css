@@ -137,6 +137,22 @@
   color: #0f0f0f;
 }
 
+.nav .nav-links li a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 1px;
+  background: #0f0f0f;
+  -webkit-transition: width .3s;
+  transition: width .3s;
+}
+
+.nav .nav-links li a:hover::after {
+  width: 100%;
+  -webkit-transition: width .3s;
+  transition: width .3s;
+}
+
 .nav .nav-links.active {
   display: -webkit-box;
   display: -ms-flexbox;

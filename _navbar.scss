@@ -45,6 +45,18 @@
                 text-decoration: none;
                 @include f-thin;
             }
+            a::after {
+                content: "";
+                display: block;
+                width: 0;
+                height: 1px;
+                background: rgb(15, 15, 15);
+                transition: width .3s;
+            }
+            a:hover::after {
+                width: 100%;
+                transition: width .3s;
+            }
         }            
     }
 
