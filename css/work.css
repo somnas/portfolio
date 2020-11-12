@@ -152,13 +152,16 @@
 .work-display {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(12rem, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  -ms-grid-columns: (minmax(15rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding: 15px;
   margin: auto;
   margin-top: 50px;
   grid-gap: 15px;
-  max-width: 720px;
+  max-width: 150px;
 }
 
 .work-display img {
@@ -173,6 +176,7 @@
   .work-display {
     -ms-grid-columns: (minmax(15rem, 1fr))[auto-fit];
         grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    max-width: 720px;
   }
 }
 /*# sourceMappingURL=work.css.map */

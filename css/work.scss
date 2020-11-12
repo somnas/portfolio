@@ -9,12 +9,13 @@
 
 .work-display {    
     display: grid;   
-    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    justify-content: center;
     padding: 15px;
     margin: auto;
     margin-top: 50px;
     grid-gap: 15px;
-    max-width: 720px;
+    max-width: 150px;
 
     img {        
         width: 100%;
@@ -29,6 +30,7 @@
 
     .work-display {
         grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+        max-width: 720px;
     }
     
 }
