@@ -1,0 +1,173 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: #f6f6f5;
+}
+
+.nav {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav .nav-links {
+  list-style: none;
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  display: none;
+}
+
+.nav .nav-links li {
+  display: inline-block;
+  margin: 5px;
+  margin-top: 10px;
+}
+
+.nav .nav-links li a {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  color: #0f0f0f;
+}
+
+.nav .nav-links li a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 1px;
+  background: #0f0f0f;
+  -webkit-transition: width .3s;
+  transition: width .3s;
+}
+
+.nav .nav-links li a:hover::after {
+  width: 100%;
+  -webkit-transition: width .3s;
+  transition: width .3s;
+}
+
+.nav .nav-links li:hover {
+  cursor: pointer;
+}
+
+.nav .nav-links.active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav #toggle-button {
+  position: absolute;
+  top: 0.6rem;
+  right: 1rem;
+}
+
+.nav #toggle-button.active {
+  display: none;
+}
+
+.nav #close-button {
+  display: none;
+  position: absolute;
+  top: 0.6rem;
+  right: 1rem;
+}
+
+.nav #close-button.active {
+  display: block;
+}
+
+.nav .some-icons {
+  list-style: none;
+  margin: auto;
+  display: none;
+}
+
+.nav .some-icons li {
+  display: inline-block;
+  margin: 5px;
+  margin-top: 10px;
+}
+
+.nav #logo {
+  display: absolute;
+  text-decoration: none;
+  margin: auto;
+  margin-top: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #0f0f0f;
+  font-size: clamp(1vw, 5vw, 1.5rem);
+  letter-spacing: 0.2em;
+}
+
+.nav #logo.active {
+  display: none;
+}
+
+@media screen and (min-width: 750px) {
+  #toggle-button {
+    display: none;
+  }
+  .nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    max-width: 1000px;
+    margin: auto;
+  }
+  .nav .nav-links {
+    margin: auto;
+    display: inline;
+  }
+  .nav .some-icons {
+    display: inline;
+  }
+}
+
+.contact-content {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  color: #0f0f0f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  margin: auto;
+  margin-top: 25px;
+  padding: 25px;
+  text-align: center;
+}
+
+.contact-content.active {
+  display: none;
+}
+/*# sourceMappingURL=contact.css.map */

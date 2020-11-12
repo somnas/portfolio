@@ -1,0 +1,18 @@
+@import "root";
+@import "navbar";
+@import "fonts";
+
+.contact-content {
+    @include f-thin;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    margin-top: 25px;
+    padding: 25px;
+    text-align: center;
+}
+
+.contact-content.active {
+    display: none;
+}
