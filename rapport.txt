@@ -1,0 +1,21 @@
+SCRUM
+
+Scrum är ett arbetssätt som dikterar hur man arbetar med projekt i en organisation. 
+Jag väljer här att definiera en "vanlig" process som ett projekt som inleds genom att man som leverantör tillsammans med kunden planerar vad som ska göras och när det ska levereras. Man sätter sedan igång med arbetet och jobbar självständigt med det tills man slutligen har en färdig produkt som levereras till kunden. 
+
+När man arbetar enligt Scrum-metoden sätter man också inledningsvis upp mål för hur en slutgiltig produkt ska se ut, men när man sätter igång och arbetar på den så gör man det i korta sprinter om exempelvis 2-4 veckor. Efter varje sådan sprint är målet att en eller flera delmål eller funktioner i den slutgiltiga produkt ska vara slutförda och dessa utvärderas då både av leverantören och kunden. Först när arbetet av föregående sprint är utvärderat sätter man igång med nästa. Detta gör att man vid varje sådan cykel har möjlighet att stämma av och kalibrera om målen för produkten. Man kan snabbt upptäcka att funktioner man inte tänkte på vid projektets start behövs och direkt implementera dessa i nästa sprint, istället för att upptäcka det först efter slutfört uppdrag som vid en vanlig process.
+
+Målet är att ha en agil process, där man hela tiden jobbar med prioriterade och relevanta uppgifter som matchar kundens behov just då.
+
+GRAFISK PROFIL
+
+En grafisk profil är en redogörelse för hur exempelvis ett varumärke ska profileras i sina olika kommunikationskanaler. Den kan vara framtagen av kunden själv eller av en anlitad designer/byrå. Exempel på vad som kan ingå i en grafisk profil är:
+- logga
+- typsnitt
+- färg/färgschema
+- bildspråk (ex. ljusa bilder mot vit bakgrund vs. mörka bilder med jordnära toner)
+
+Idén med en grafisk profil är att skapa en sammanhängande bild av sitt varumärke både vad gäller nuvarande och kommande material. Ska en fotograf anlitas för att ta nya bilder åt varumärket kan de bifoga sin grafiska profil som instruktion till fotografen för att visa vilken stil bilderna behöver ha. Ska man trycka upp marknadsföringsmaterial kan man bifoga sin grafiska profil till tryckeriet för att de ska veta exakt vilka färger som ska användas.
+
+TILLGÄNGLIGHET
+
