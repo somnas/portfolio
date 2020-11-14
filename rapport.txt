@@ -21,3 +21,11 @@ TILLGÄNGLIGHET
 
 Med tillgänglighet menas hur tillgängligt webbsidans innehåll är för slutanvändaren. Det gäller dels för den genomsnittliga användaren, men det finns också en rad faktorer att ta hänsyn till för att innehållet ska vara tillgängligt för någon med någon form av funktionell nedsättning. 
 Totalt finns det ett 50-tal bestämda rekommendationer i olika nivåer. Dessa rekommendationer varierar från enkla saker som att det ska vara tillräcklig kontrast mellan sidans olika element för att de ska vara lätta att urskilja, till specifikt innehåll avsett för tex. skärmläsare eller sätt att navigera sidan för någon som inte kan styra en datormus eller annat pekdon. 
+
+Implementerade tillgänglighetskrav:
+
+1.3.2 Presentera innehållet i en meningsfull ordning för alla
+1.4.1 Använd inte enbart färg för att förmedla information
+1.4.10 Skapa en flexibel layout som fungerar vid förstoring eller liten skärm
+1.4.11 Använd tillräckliga kontraster i komponenter och grafik
+1.4.3 Använd tillräcklig kontrast mellan text och bakgrund
