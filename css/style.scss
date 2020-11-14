@@ -1,33 +1,6 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    background-color: rgb(246, 246, 245);
- }
-
- @mixin f-thin {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
-    color: rgb(15, 15, 15);
- }
-
- @mixin f-light {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    color: rgb(15, 15, 15);
- }
-
- @mixin f-regular {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    color: rgb(15, 15, 15);
- }
-
- @mixin f-medium {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    color: rgb(15, 15, 15);
- }
+@import "root";
+@import "fonts";
+@import "navbar";
 
 .container {
     display: grid;
@@ -35,8 +8,6 @@
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 11fr;
 }
-
-@import "navbar";
 
 .landing-text {   
     
@@ -115,7 +86,7 @@
         p {            
             @include f-light;
             font-size: 1.5rem;            
-            padding: 140px 25px 50px 150px;                       
+            padding: 120px 25px 50px 150px;                       
         }        
     }
 
