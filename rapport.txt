@@ -19,3 +19,5 @@ Idén med en grafisk profil är att skapa en sammanhängande bild av sitt varum�
 
 TILLGÄNGLIGHET
 
+Med tillgänglighet menas hur tillgängligt webbsidans innehåll är för slutanvändaren. Det gäller dels för den genomsnittliga användaren, men det finns också en rad faktorer att ta hänsyn till för att innehållet ska vara tillgängligt för någon med någon form av funktionell nedsättning. 
+Totalt finns det ett 50-tal bestämda rekommendationer i olika nivåer. Dessa rekommendationer varierar från enkla saker som att det ska vara tillräcklig kontrast mellan sidans olika element för att de ska vara lätta att urskilja, till specifikt innehåll avsett för tex. skärmläsare eller sätt att navigera sidan för någon som inte kan styra en datormus eller annat pekdon. 
