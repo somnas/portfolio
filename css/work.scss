@@ -30,6 +30,11 @@
     .work-display {
         grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
         max-width: 720px;
+    }    
+}
+
+@media screen and (min-width: 1000px) {
+    a {
+        font-size: 1.1rem;
     }
-    
 }

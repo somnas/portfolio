@@ -183,4 +183,10 @@
 .about-content.active {
   display: none;
 }
+
+@media screen and (min-width: 1000px) {
+  a {
+    font-size: 1.1rem;
+  }
+}
 /*# sourceMappingURL=about.css.map */
