@@ -2,6 +2,10 @@
 @import "navbar";
 @import "fonts";
 
+#about-nav {
+    font-weight: 400;
+}
+
 .about-content {
     @include f-thin;
     display: flex;

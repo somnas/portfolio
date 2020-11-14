@@ -149,6 +149,10 @@
   }
 }
 
+#work-nav {
+  font-weight: 400;
+}
+
 .work-display {
   display: -ms-grid;
   display: grid;

@@ -7,6 +7,10 @@
 
 @import "navbar";
 
+#work-nav {
+    font-weight: 400;
+}
+
 .work-display {    
     display: grid;   
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));

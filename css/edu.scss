@@ -2,6 +2,10 @@
 @import "navbar";
 @import "fonts";
 
+#edu-nav {
+    font-weight: 400;
+}
+
 .edu-text {
     @include f-thin;
     margin: auto;

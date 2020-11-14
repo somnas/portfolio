@@ -149,6 +149,10 @@
   }
 }
 
+#edu-nav {
+  font-weight: 400;
+}
+
 .edu-text {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;

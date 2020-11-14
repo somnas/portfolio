@@ -2,6 +2,10 @@
 @import "navbar";
 @import "fonts";
 
+#contact-nav {
+    font-weight: 400;
+}
+
 .contact-content {
     @include f-thin;
     display: flex;
